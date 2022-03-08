@@ -1,6 +1,7 @@
 header{
     background-color:var(--color-primary);
     height:60px;
+    display: flex;
     align-items: center;
 }
 .dsmovie-nav-content{

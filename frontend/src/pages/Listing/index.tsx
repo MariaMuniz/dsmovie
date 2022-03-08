@@ -1,7 +1,7 @@
-
+import Pagination from "components/Pagination";
 
 export default function Liting(){
     return(
-        <h1>Página de listagem</h1>
+        <Pagination/>
     );
 }

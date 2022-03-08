@@ -12,7 +12,7 @@ return(
   <div className='dsmovie-contact-container'>
   
     <GithubIcon/>
-    <p>/MariaMuniz</p>
+    <p className='dsmovie-contact-link'>/MariaMuniz</p>
     </div>
   </a>
   </div>

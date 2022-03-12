@@ -8,8 +8,8 @@ import { BASE_URL } from "utils/requests";
 export default function Liting() {
 
     const [pageNumber, setPageNumber] = useState(0);
-    const [page, setPage] = useState<MoviePage>({
 
+    const [page, setPage] = useState<MoviePage>({
         content:[],
         last: true,
         totalPages: 0,
@@ -30,19 +30,15 @@ useEffect(()=>{
         });    
 },[pageNumber]);
 
-const movie = {
-    id: 1,
-    image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-    title: "The Witcher",
-    count: 2,
-    score: 4.5
-};
-  
+
+  const handlePageChange = (newPageNumber : number) =>{
+      setPageNumber(newPageNumber);
+  }
 
     return (
         <>
       
-            <Pagination />
+            <Pagination  page={page} onChange={handlePageChange}/>
             <div className="container">
                 <div className="row">
 

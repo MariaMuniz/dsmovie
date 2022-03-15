@@ -10,5 +10,5 @@ Projeto cria durante o curso Semana Spring React da DEVSUPERIOR.
 *   Postgres
 
 [!dsmovie](https://github.com/MariaMuniz/dsmovie/blob/main/Img/img_dsmovie1.png)
-![dsmovie](https://github.com/MariaMuniz/dsmovie/blob/main/Img/img2.png)
+[!dsmovie](https://github.com/MariaMuniz/dsmovie/blob/main/Img/img2.png)
 

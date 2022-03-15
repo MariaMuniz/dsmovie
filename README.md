@@ -1,7 +1,7 @@
 # dsmovie
-Projeto cria durante o curso Semana Spring React da DEVSUPERIOR.
+Projeto criado durante o curso Semana Spring React da DEVSUPERIOR.
 ## Tecnologias
-*   Nodes.js.
+*   Node.js.
 *   JavaScript.
 *   React 
 *   TypeScript
